@@ -4,13 +4,13 @@ govim-find-func 插件用于查找go项目中, 函数被调用情况 , 并列出
 注意: 只支持Linux环境
 
 
-#安装:
+# 安装:
 
 ```
 Plugin 'git@github.com:relunctance/govim-find-func.git'
 ```
 
-#.vimrc 配置查找PATH:
+# .vimrc 配置查找PATH:
 如果没有全局变量govim_find_func_path 则使用当前文件所在路径的Path
 ```
 "配置需要查找的路径path 
