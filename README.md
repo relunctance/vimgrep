@@ -12,9 +12,13 @@ govim-find-func 插件用于查找项目中, 光标所在字符出现的情况, 
 
 # 安装:
 
+使用Bundle管理插件
 ```
-Plugin 'git@github.com:relunctance/govim-find-func.git'
+
+Plugin 'relunctance/govim-find-func'
+
 ```
+:wq退出保存, 重新打开.vimrc 执行:BundleInstall
 
 # .vimrc 配置查找PATH:
 如果没有全局变量govim_find_func_path 则使用当前文件所在路径的Path
