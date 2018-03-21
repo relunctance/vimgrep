@@ -26,7 +26,7 @@ Plugin 'relunctance/govim-find-func'
 "配置需要查找的路径path 
 let g:govim_find_func_path="/home/path1:/home/path2"
 map <leader>d :call GoVimFindWord()<CR>
-"或者定义快捷键<F4>
+"或者定义快捷键<F9>
 map <F9> :call GoVimFindWord()<CR>
 ```
 
