@@ -12,7 +12,7 @@ if !exists("g:govim_find_func_file_suffix")
     let g:govim_find_func_file_suffix="__NO_SUFFIX__"
     let fname = expand("%")
     if fname != "" 
-        let pos = stridx(fname , ".")
+        let pos = strridx(fname , ".")
         if pos != -1 
             let g:govim_find_func_file_suffix=strpart(fname , pos+1)    " 重新赋值
         endif
