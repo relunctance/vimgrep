@@ -1,5 +1,5 @@
 # 说明
-govim-find-func 快速定位光标字符在项目中所有位置
+vimgrep 快速定位光标字符在项目中所有位置
  
 # 功能
 * 若不配置g:govim_find_func_path全局变量,则在当前打开文件对应的目录中检索
@@ -15,7 +15,7 @@ govim-find-func 快速定位光标字符在项目中所有位置
 使用Bundle管理插件
 ```
 
-Plugin 'relunctance/govim-find-func'
+Plugin 'relunctance/vimgrep'
 
 ```
 :wq退出保存, 重新打开.vimrc 执行:BundleInstall
