@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 if [ $# != 3 ]; then
     #echo "need [name] [path]"; # 没有任何报错 , 防止用户随便按在空白处
     exit 2; 
@@ -24,5 +24,8 @@ FILE_TYPE=$3
 arr=$(echo $path_all|tr ":" "\n")
 for line in $arr; 
 do
+    if [ ! -d "$line" ];then
+        continue
+    fi
     findbyname  $name $line $FILE_TYPE
 done
