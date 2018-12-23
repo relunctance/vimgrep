@@ -22,7 +22,7 @@ endif
 function! GoVimFindWord() "首字母需要大写
     let g:govimfind_word =expand("<cword>") " 获取光标所在单词
     if g:govimfind_word != ""
-        execute "!~/.vim/bundle/govim-find-func/plugin/find_grep.sh " . g:govimfind_word . " " . g:govim_find_func_path . " " . g:govim_find_func_file_suffix
+        execute "!~/.vim/bundle/vimgrep/plugin/find_grep.sh " . g:govimfind_word . " " . g:govim_find_func_path . " " . g:govim_find_func_file_suffix
     endif
 endfunction
 
